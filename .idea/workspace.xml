@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="031da046-cd36-4967-a234-db92a8cc6ade" name="Changes" comment="Initial commit for project">
+    <list default="true" id="031da046-cd36-4967-a234-db92a8cc6ade" name="Changes" comment="Create the client socket to connect to server via local host">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/benjiman/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/benjiman/main/Main.java" afterDir="false" />
     </list>
@@ -41,6 +41,26 @@
     "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.benjiman.main.Main" />
+      <module name="EchoClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.benjiman.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658910104361</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create the client socket to connect to server via local host">
+      <created>1658910513762</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658910513762</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit for project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit for project" />
+    <MESSAGE value="Create the client socket to connect to server via local host" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create the client socket to connect to server via local host" />
   </component>
 </project>
