@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="031da046-cd36-4967-a234-db92a8cc6ade" name="Changes" comment="Server timeouts set up and connected">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/benjiman/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/benjiman/main/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="031da046-cd36-4967-a234-db92a8cc6ade" name="Changes" comment="Add Print Menu function to display and wait for user response" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658990541912</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Print Menu function to display and wait for user response">
+      <created>1659014253822</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659014253822</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +121,7 @@
     <MESSAGE value="Create the client socket to connect to server via local host" />
     <MESSAGE value="Connection between the Server and Client connected" />
     <MESSAGE value="Server timeouts set up and connected" />
-    <option name="LAST_COMMIT_MESSAGE" value="Server timeouts set up and connected" />
+    <MESSAGE value="Add Print Menu function to display and wait for user response" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Print Menu function to display and wait for user response" />
   </component>
 </project>
