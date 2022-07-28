@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="031da046-cd36-4967-a234-db92a8cc6ade" name="Changes" comment="Create the client socket to connect to server via local host">
+    <list default="true" id="031da046-cd36-4967-a234-db92a8cc6ade" name="Changes" comment="Connection between the Server and Client connected">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/benjiman/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/benjiman/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658910513762</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Connection between the Server and Client connected">
+      <created>1658919269463</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658919269464</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit for project" />
     <MESSAGE value="Create the client socket to connect to server via local host" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create the client socket to connect to server via local host" />
+    <MESSAGE value="Connection between the Server and Client connected" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connection between the Server and Client connected" />
   </component>
 </project>
