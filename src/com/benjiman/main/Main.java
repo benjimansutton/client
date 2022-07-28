@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.SocketTimeoutException;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
@@ -31,7 +31,8 @@ public class Main {
             // Do while loop to is to capture and send it to the server
 
             do {
-                System.out.println("Enter string to be echoed: ");
+                printMenu();
+
                 echoString = scanner.nextLine();
 
                 stringToEcho.println(echoString);
@@ -39,7 +40,7 @@ public class Main {
                     response = echoes.readLine();
                     System.out.println(response);
                 }
-            } while (!echoString.equals("exit"));
+            } while (!echoString.equals("start"));
 
             // This catch block connects with the server in the event of a time out
         } catch(SocketTimeoutException e) {
@@ -53,4 +54,20 @@ public class Main {
 
 
     }
+    // This method prints out the menu and waits for the user to select the option
+    private static void printMenu() {
+        System.out.println("Actions available:\npress");
+        System.out.println(
+                "0 - to quit\n" +
+                "1 - Ready the troops\n" +
+                "2 - Show id with ammo\n" +
+                "3 - Show id with rations\n" +
+                "4 - Show id with water\n" +
+                "5 - Show id with Location\n" +
+                "6 - Move 100 meters\n" +
+                "7 - Receive 72Hrs of Rations\n" +
+                "8 - Receive 15L of Water\n" +
+                "9 - Receive 100 Bullets");
+    }
+
 }
