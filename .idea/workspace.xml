@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="031da046-cd36-4967-a234-db92a8cc6ade" name="Changes" comment="Minor change for the try block">
+    <list default="true" id="031da046-cd36-4967-a234-db92a8cc6ade" name="Changes" comment="Edit to the echoString">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660383481953</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Edit to the echoString">
+      <created>1660472160642</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660472160642</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +154,7 @@
     <MESSAGE value="Add Print Menu function to display and wait for user response" />
     <MESSAGE value="End of day" />
     <MESSAGE value="Minor change for the try block" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor change for the try block" />
+    <MESSAGE value="Edit to the echoString" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit to the echoString" />
   </component>
 </project>
