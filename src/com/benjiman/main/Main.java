@@ -14,10 +14,10 @@ public class Main {
 
         // Try block that connects to the server from this client into the local host 6000
 
-        try(Socket socket = new Socket("localhost", 6000)) {  //127.0.0.100
+        try(Socket socket = new Socket("localhost", 6001)) {  //127.0.0.100
 
             // Timeout for the if the server doesn't respond
-            socket.setSoTimeout(5000);
+            socket.setSoTimeout(25000);
             BufferedReader echoes = new BufferedReader(
                     new InputStreamReader(socket.getInputStream()));
             PrintWriter stringToEcho = new PrintWriter(socket.getOutputStream(), true);
@@ -60,14 +60,12 @@ public class Main {
         System.out.println(
                 "0 - to quit\n" +
                 "1 - Ready the troops\n" +
-                "2 - Show id with ammo\n" +
-                "3 - Show id with rations\n" +
-                "4 - Show id with water\n" +
-                "5 - Show id with Location\n" +
+                "2 - Show number with Ammo\n" +
+                "3 - Show number with Food\n" +
+                "4 - Show number with Water\n" +
+                "5 - Show number with Location\n" +
                 "6 - Move 100 meters\n" +
-                "7 - Receive 72Hrs of Rations\n" +
-                "8 - Receive 15L of Water\n" +
-                "9 - Receive 100 Bullets");
+                "7 - Replenish Food, Water & Ammo");
     }
 
 }
