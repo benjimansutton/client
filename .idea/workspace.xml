@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="031da046-cd36-4967-a234-db92a8cc6ade" name="Changes" comment="Menu options changed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="031da046-cd36-4967-a234-db92a8cc6ade" name="Changes" comment="Before presenting commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660633138998</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Before presenting commit">
+      <created>1660645640175</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1660645640175</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +191,7 @@
     <MESSAGE value="Edit to the echoString" />
     <MESSAGE value="End of day commit" />
     <MESSAGE value="Menu options changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Menu options changed" />
+    <MESSAGE value="Before presenting commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Before presenting commit" />
   </component>
 </project>
