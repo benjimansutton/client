@@ -60,12 +60,9 @@ public class Main {
         System.out.println(
                 "0 - to quit\n" +
                 "1 - Ready the troops\n" +
-                "2 - Show number with Ammo\n" +
-                "3 - Show number with Food\n" +
-                "4 - Show number with Water\n" +
-                "5 - Show number with Location\n" +
-                "6 - Move 100 meters\n" +
-                "7 - Replenish Food, Water & Ammo");
+                "2 - Show number with Ammo, Food  Water\n" +
+                "3 - Move 1 mile\n" +
+                "4 - Replenish Food, Water & Ammo");
     }
 
 }
